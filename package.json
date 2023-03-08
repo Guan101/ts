@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.7.1",
+    "browserslist": "^4.21.5",
+    "caniuse-lite": "^1.0.30001462",
     "vuepress": "^1.7.1",
     "vuepress-plugin-qrcode": "^1.0.7"
   }

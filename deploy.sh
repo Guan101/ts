@@ -4,7 +4,7 @@ set -e
 time=$(date "+%Y-%m-%d %H:%M:%S")
 
 git add .
-git commit -m "$time"
+git commit -m "update at $time"
 git push -f git@github.com:Guan101/ts.git main
 # 打包生成静态文件
 npm run build

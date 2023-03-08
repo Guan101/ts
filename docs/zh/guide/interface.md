@@ -18,7 +18,7 @@ const obj:Person = {
 上面我们就是定义一个叫Person的约束，它规定的对象结构是：里面有字符串类型的name属性，和number类型的age属性,然后我们声明了一个Person类型的obj对象</br>
 
 上面这样写是没有问题的，但是假如我们在使用Person接口约束时，定义的对象的属性缺少age属性，那么将会出现以下情况:</br>
-<img src="../img/ts/接口和对象类型01.png"></img>
+<img src="../img/接口和对象类型01.png"></img>
 
 ><font color="#3eaf7c" size="4">**使用接口约束的时候不能多一个属性也不能少一个属性，必须与接口保持一致**</font>
 
@@ -109,7 +109,7 @@ const obj: Int = {
 obj.a = 123    //会报错，如下图
 ```
 
-<img src="../img/ts/接口和对象类型02.png">
+<img src="../img/接口和对象类型02.png">
 
 ### 6、添加函数
 
