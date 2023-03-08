@@ -82,6 +82,10 @@ module.exports = {
             'theme',
             'plugin',
             'baseDataType',
+            'anyType',
+            'arrayType',
+            'function',
+            'interface',
           ],
           '/zh/resource/': [],
         }
