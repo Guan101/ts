@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev docs --temp",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
