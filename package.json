@@ -1,0 +1,30 @@
+{
+  "name": "ts-notes",
+  "version": "1.0.6",
+  "description": "ts-notes",
+  "author": "wenhao",
+  "main": "index.js",
+  "keywords": [
+    "theme",
+    "template",
+    "plugin",
+    "ts",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/openHacking/vuepress-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openHacking/vuepress-template.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --temp",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-qrcode": "^1.0.7"
+  }
+}
