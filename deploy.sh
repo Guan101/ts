@@ -1,8 +1,10 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+time1=$(date)
+
 git add -A
-git commit -m '修改'
+git commit -m time1
 git push -f git@github.com:Guan101/ts.git main
 # 打包生成静态文件
 npm run build
