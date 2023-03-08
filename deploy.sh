@@ -1,6 +1,10 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+git add -A
+git commit -m '修改'
+git push -f git@github.com:Guan101/Guan101.github.io.git master
+
 # 打包生成静态文件
 npm run build
 
