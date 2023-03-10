@@ -1,8 +1,8 @@
-# deploy gh-pages
-npm run docs:build
+# deploy page
+npm run build
 git add docs/.vuepress/dist
 git commit -m "Initial dist subtree commit"
-git subtree push --prefix docs/.vuepress/dist origin gh-pages
+git subtree push --prefix docs/.vuepress/dist origin page
 
 # npm publish
 npm login
