@@ -11,21 +11,14 @@
     "ts",
     "vuepress"
   ],
-  "homepage": "https://github.com/openHacking/vuepress-template",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openHacking/vuepress-template.git"
-  },
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "publish": "bash deploy.sh"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.7.1",
-    "browserslist": "^4.21.5",
-    "caniuse-lite": "^1.0.30001462",
     "vuepress": "^1.7.1",
     "vuepress-plugin-qrcode": "^1.0.7"
   }
