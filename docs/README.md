@@ -1,15 +1,15 @@
 ---
 home: true
-heroText: VuePress Template
-tagline: Template · Theme · Plugin
-actionText: Get Started →
+heroText: TS 学习
+tagline: 模板 · 主题 · 插件
+actionText: 快速上手 →
 actionLink: /guide/
 features:
-- title: Template
-  details: Rich templates
-- title: Theme
-  details: Custom theme
-- title: Plugin
-  details: Multiple plugins
-footer: MIT Licensed | Copyright © 2020-present OpenHacking
+- title: 模板
+  details: 丰富的模板
+- title: 主题
+  details: 自定义主题
+- title: 插件
+  details: 多种插件
+footer: 
 ---

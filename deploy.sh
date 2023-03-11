@@ -13,7 +13,7 @@ npm run build
 
 # npm run build
 git add docs/.vuepress/dist
-git commit -m "Initial dist subtree commit"
+git commit -m "dist commit at $time"
 git subtree push --prefix docs/.vuepress/dist origin page
 
 
