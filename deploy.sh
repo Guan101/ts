@@ -5,8 +5,7 @@ time=$(date "+%Y-%m-%d %H:%M:%S")
 
  git add .
  git commit -m "update at $time"
- git push -f git@github.com:Guan101/ts.git note
-# 打包生成静态文件
+
 npm run build
 
 # 进入打包好的文件夹
